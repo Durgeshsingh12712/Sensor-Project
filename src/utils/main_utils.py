@@ -52,7 +52,7 @@ class MainUtils:
         except Exception as e:
             raise CustomException(e, sys) from e
     
-     @staticmethod
+    @staticmethod
     def load_object(file_path: str) -> object:
         logging.info("Entered the load_object method of MainUtils class")
 
